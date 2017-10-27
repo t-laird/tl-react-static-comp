@@ -9,4 +9,4 @@ The React static comp is designed to get introduce basic react concepts to be bu
 ![static comp design](https://i.imgur.com/8eQr70q.png)
 
 ### My Compositon
-![my composition]()
+![my composition](./public/story1.jpg?raw=true)
