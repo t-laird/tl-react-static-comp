@@ -33,3 +33,20 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 1080px) {
+  .Banner {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 92%;
+  }
+  .banner-left, .banner-right {
+    width: 100%;
+  }
+
+  .banner-right {
+    /* height: 200px; */
+    height: 490px;
+  }
+}
+
