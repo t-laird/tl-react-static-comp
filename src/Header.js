@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='Header'>
       {/* What goes in here? */}
-      <a href="">Write a Story</a>
+      <a className="left" href="">Write a Story</a>
       <h1>Material</h1>
       <a href="">Sign In/Sign Up</a>
     </div>
