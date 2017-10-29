@@ -15,17 +15,36 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: space-between;
   text-align: left;
   padding: 15px;
+  padding-top: 5px;
 }
 
 .story-info h3 {
   letter-spacing: 1px;
   margin: 5px;
+  margin-left: 0px;
 }
 
 .story-info p {
   font-weight: lighter;
   line-height: 150%;
   margin: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .Story img.story-art{
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+  }
+
+  .Story {
+    flex-wrap: wrap;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 }

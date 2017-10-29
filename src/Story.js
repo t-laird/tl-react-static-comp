@@ -8,7 +8,7 @@ const Story = (props) => {
   // console.log(storyProps);
   return (
     <div className='Story'>
-      <img src={storyProps.img} />
+      <img className="story-art" src={storyProps.img} />
       <div className='story-info'>
         <div>
           <h3>{storyProps.title}</h3>
