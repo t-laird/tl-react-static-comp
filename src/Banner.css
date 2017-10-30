@@ -24,8 +24,11 @@
 }
 
 .banner-right {
-  background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png);
+  /* background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png); */
+  background-image: url('../public/banner.JPG');
   background-size: cover;
+  margin: 20px 0px 20px 0px;
+  max-height: 300px;
   width: 50%;
 }
 
